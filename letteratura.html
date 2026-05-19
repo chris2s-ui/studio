@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Letteratura</title>
+    <style>
+        .argomenti{
+            width:90%;
+            margin:40px auto;
+            display:grid;
+            grid-template-columns:repeat(3,1fr);
+            gap:20px;
+        }
+        .argomenti-box{
+            background:#eae7e7;
+            border:2px solid#df7878;
+            border-radius:15px;
+            padding:30px 10px;
+            text-align:center;
+            font-size:20px;
+            font-weight:bold;
+            cursor:pointer;
+            transition:0.3s;
+        }
+        .argomenti-box:hover{
+            background:#df7878;
+            color:white;
+            transform:scale(1.05);
+        }
+    </style>
+    </head>
+    <body>
+        <h1 style="text-align:center; font-size:50px;">letteratura</h1>
+        <div class="argomenti-box" onclick="location.href='divina commedia.html'">divina commedia</div>
+        <div class="argomenti-box" onclick="location.href='decamerone.html'">decamerone</div>
+        <div class="argomenti-box" onclick="location.href='orlando furioso.html'">orlando furioso</div>
+
+    </body>
+    </html>
