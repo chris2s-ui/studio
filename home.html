@@ -3,15 +3,30 @@
     <head>
         <title> home </title>
         <style>
-            .materie{
+            /* Impostazioni dello sfondo della pagina */
+            body {
+                background-image: url('sfondo.jpg');
+                background-size: cover;
+                background-position: center;
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+                margin: 0;
+                min-height: 100vh;
+                font-family: sans-serif;
+            }
+
+            .materie {
                 width: 90%;
                 margin: 40px auto;
                 display: grid;
                 grid-template-columns: repeat(4, 1fr);
                 gap: 20px;
             }
-            .materie-box{
-                background: #eae7e7;
+
+            .materie-box {
+                /* Sfondo leggermente trasparente con effetto sfocato per leggibilità */
+                background: rgba(234, 231, 231, 0.85);
+                backdrop-filter: blur(5px);
                 border: 2px solid #df7878;
                 border-radius: 15px;
                 padding: 30px 10px;
@@ -21,20 +36,24 @@
                 cursor: pointer;
                 transition: 0.3s;
             }
-            .materie-box:hover{
+
+            .materie-box:hover {
                 background: #df7878;
                 color: white;
                 transform: scale(1.05);
             }
-            .argomenti{
+
+            .argomenti {
                 width: 90%;
                 margin: 40px auto;
                 display: grid;
                 grid-template-columns: repeat(3, 1fr);
                 gap: 20px;
             }
-            .argomenti-box{
-                background: #eae7e7;
+
+            .argomenti-box {
+                background: rgba(234, 231, 231, 0.85);
+                backdrop-filter: blur(5px);
                 border: 2px solid #df7878;
                 border-radius: 15px;
                 padding: 30px 10px;
@@ -44,17 +63,18 @@
                 cursor: pointer;
                 transition: 0.3s;
             }
-            .argomenti-box:hover{
+
+            .argomenti-box:hover {
                 background: #df7878;
                 color: white;
                 transform: scale(1.05);
             }
         </style>
-
     </head>
     <body>
         <h1 style="text-align: center; font-size: 60px; margin-top: 40px;">MY_SPACE_STUDIO</h1>
-        <p style="text-align: center; font-size: 20px; margin-top: 30px;">scegli la materia e trova tutto ciò di qui hai bisogno!</p>
+        <p style="text-align: center; font-size: 20px; margin-top: 30px;">scegli la materia e trova tutto ciò di cui hai bisogno!</p>
+        
         <div class="materie">
             <div class="materie-box" onclick="location.href='matematica.html'">matematica</div>
             <div class="materie-box" onclick="location.href='letteratura.html'">letteratura</div>
@@ -65,9 +85,5 @@
             <div class="materie-box" onclick="location.href='geografia.html'">geografia</div>
             <div class="materie-box" onclick="location.href='fisica.html'">fisica</div>
         </div>
-      
-            
-
-
     </body>
 </html>
