@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
     <head>
         <title> home </title>
@@ -19,7 +19,6 @@
                 font-family: Arial, sans-serif;
             }
 
-           
             .titolo-principale {
                 text-align: center;
                 font-size: 60px;
@@ -39,23 +38,27 @@
                 gap: 20px;
             }
 
+            /* STILE PULSANTI AGGIORNATO CON OMBRA */
             .materie-box {
-                background: rgba(234, 231, 231, 0.85);
+                background: rgba(255, 255, 255, 0.85);
                 backdrop-filter: blur(8px);
-                border: 2px solid #df7878;
+                border: none;                             /* Rimosso il bordo rosso sottile */
                 border-radius: 15px;
                 padding: 30px 10px;
                 text-align: center;
                 font-size: 20px;
                 font-weight: bold;
                 cursor: pointer;
-                transition: 0.3s;
+                transition: all 0.3s ease;               /* Transizione morbida */
+                box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Ombra morbida sotto i pulsanti */
             }
 
+            /* EFFETTO HOVER (QUANDO PASSI IL MOUSE SOPRA) */
             .materie-box:hover {
-                background: #df7878;
-                color: white;
-                transform: scale(1.05);
+                background: #ffffff;
+                color: #df7878;
+                transform: translateY(-5px);             /* Il pulsante si solleva leggermente */
+                box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25); /* L'ombra diventa più profonda */
             }
         </style>
     </head>
@@ -64,14 +67,14 @@
         <p style="text-align: center; font-size: 20px; margin-top: 50px; color: #222;">scegli la materia e trova tutto ciò di cui hai bisogno!</p>
         
         <div class="materie">
-            <div class="materie-box" onclick="location.href='matematica.html'">matematica</div>
-            <div class="materie-box" onclick="location.href='letteratura.html'">letteratura</div>
-            <div class="materie-box" onclick="location.href='scienze.html'">scienze</div>
-            <div class="materie-box" onclick="location.href='storia.html'">storia</div>
-            <div class="materie-box" onclick="location.href='inglese.html'">inglese</div>
-            <div class="materie-box" onclick="location.href='informatica.html'">informatica</div>
-            <div class="materie-box" onclick="location.href='geografia.html'">geografia</div>
-            <div class="materie-box" onclick="location.href='fisica.html'">fisica</div>
+            <div class="materie-box" onclick="location.href='matematica.html'">📐 matematica</div>
+            <div class="materie-box" onclick="location.href='letteratura.html'">📚 letteratura</div>
+            <div class="materie-box" onclick="location.href='scienze.html'">🔬 scienze</div>
+            <div class="materie-box" onclick="location.href='storia.html'">📜 storia</div>
+            <div class="materie-box" onclick="location.href='inglese.html'"> inglese</div>
+            <div class="materie-box" onclick="location.href='informatica.html'">💻 informatica</div>
+            <div class="materie-box" onclick="location.href='geografica.html'">🌍 geografia</div>
+            <div class="materie-box" onclick="location.href='fisica.html'">⚡ fisica</div>
         </div>
     </body>
 </html>
