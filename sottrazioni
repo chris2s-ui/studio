@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>addizioni</title>
+    <title>sottrazioni</title>
     <style>
         body {
             background-color: #0d6efd; 
@@ -22,14 +22,14 @@
 </head>
 <body>
 
-<h1 style="text-align:center;color: white; font-size:50px;">addizioni</h1>
+<h1 style="text-align:center;color: white; font-size:50px;">sottrazioni</h1>
 
 <div class="contenuto">
-    <p>L'addizione è la prima e più fondamentale tra le quattro operazioni aritmetiche, costituendo l'ossatura primario dell'intero edificio matematico. Pur essendo una delle prime nozioni apprese nell'infanzia, l'addizione racchiude una struttura teorica profonda che si estende dall'aritmetica elementare fino ai concetti più avanzati dell'algebra astratta.</p>
-    <p>Dal punto di vista formale, l'addizione è un'operazione binaria che associa a due elementi di un insieme, detti addendi, un unico elemento finale chiamato somma o totale. La sua stabilità formale si fonda su tre proprietà algebriche fondamentali:</p>
-    <p>Commutativa: l'ordine degli addendi non altera il risultato (a + b = b + a).</p>
-    <p>Associativa: l'ordine con cui si raggruppano tre o più addendi non cambia il totale final (a + (b + c) = (a + b) + c).</p>
-    <p>Elemento neutro: esiste un elemento unico, lo zero (0), che addizionato a qualsiasi numero lascia il valore inalterato (a + 0 = a).</p>
+    <p>La sottrazione è l'operazione aritmetica inversa dell'addizione e rappresenta l'operazione fondamentale per determinare la differenza, il calo o la distanza tra due quantità. Pur nascendo dall'intuito primario del "togliere" o "separare", la sottrazione possiede un ruolo teorico cruciale: è proprio l'esigenza di renderla sempre possibile a spingere l'estensione dei numeri naturali ai numeri relativi.</p>
+    <p>Dal punto di vista formale, la sottrazione è un'operazione binaria che associa a un primo numero, detto minuendo, e a un secondo numero, detto sottraendo, un valore finale chiamato differenza o resto. A differenza dell'addizione, la sottrazione non gode delle classiche proprietà commutativa e associativa, ma si caratterizza per una proprietà algebrica specifica:</p>
+    <p>Non commutativa: invertire l'ordine dei termini modifica il risultato (a - b &neq; b - a).</p>
+    <p>Non associativa: il modo in cui si raggruppano le sottrazioni altera il totale final ((a - b) - c &neq; a - (b - c)).</p>
+    <p>Proprietà invariantiva: addizionando o sottraendo uno stesso numero sia al minuendo sia al sottraendo, la differenza rimane invariata ((a + c) - (b + c) = a - b).</p>
 </div>
 
 </body>
