@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>moltiplicazioni</title>
+    <style>
+        body {
+            background-color: #0d6efd; 
+            margin: 0;
+            font-family: sans-serif;
+        }
+        .contenuto{
+            width:80%;
+            margin:40px auto;
+            background:#f7f7f7;
+            padding:30px;
+            border-radius:15px;
+            border:2px solid#df7878;
+            font-size:20px;
+            line-height:1.6;
+        }
+    </style>
+</head>
+<body>
+
+<h1 style="text-align:center;color: white; font-size:50px;">moltiplicazioni</h1>
+
+<div class="contenuto">
+    <p>La moltiplicazione è l'operazione aritmetica che formalizza l'idea di ripetizione, scalatura e proporzione. Nasce come un'abbreviazione dell'addizione ripetuta, ma si sviluppa fino a diventare uno degli strumenti algebrici più potenti per calcolare superfici, combinazioni e trasformazioni geometriche.</p>
+    <p>Dal punto di vista algebrico, la moltiplicazione è un'operazione binaria che associa a due numeri, detti fattori (nello specifico moltiplicando e moltiplicatore), un unico risultato chiamato prodotto. La sua struttura si regge su proprietà fondamentali:</p>
+    <p>Commutativa: l'ordine dei fattori non altera il prodotto (a x b = b x a).</p>
+    <p>Associativa: la raggruppabilità di tre o più fattori è indifferente (a x (b x c) = (a x b) x c).</p>
+    <p>Elemento neutro: l'unità ($1$) lascia invariato qualsiasi valore (a x 1 = a).</p>
+    <p>Elemento assorbente: la moltiplicazione per zero dà sempre zero (a x 0 = 0).</p>
+    <p>Distributiva rispetto all'addizione: connette la moltiplicazione all'addizione (a x (b + c) = a x b + a x c).</p>
+</div>
+
+</body>
+</html>
