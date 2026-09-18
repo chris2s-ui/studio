@@ -31,10 +31,35 @@
             color:white;
             transform:scale(1.05);
         }
+
+    .freccia-home {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    background: #eae7e7;
+    color: #000;
+    padding: 10px 15px;
+    border: 2px solid #070000;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.freccia-home:hover {
+    background: #df7878;
+    color: white;
+    transform: scale(1.05);
+}
+
+
     </style>
     </head>
     <body>
         <h1 style="text-align:center; color: white; font-size:50px;">Geografia</h1>
+        <div class="freccia-home" onclick="location.href='home.html'">&#8592; Torna alla Home</div>
         <div class="argomenti">
 
             <div class="argomenti-box" onclick="location.href='GEOGRAFIA/montagne.html'">montagne</div>
